@@ -1,0 +1,38 @@
+@font-face {
+  font-family: 'sell-icon';
+  src:  url('../fonts/sell-icon.eot?r7m8k5');
+  src:  url('../fonts/sell-icon.eot?r7m8k5#iefix') format('embedded-opentype'),
+    url('../fonts/sell-icon.ttf?r7m8k5') format('truetype'),
+    url('../fonts/sell-icon.woff?r7m8k5') format('woff'),
+    url('../fonts/sell-icon.svg?r7m8k5#sell-icon') format('svg');
+  font-weight: normal;
+  font-style: normal;
+}
+
+[class^="icon-"], [class*=" icon-"] {
+  /* use !important to prevent issues with browser extensions that change fonts */
+  font-family: 'sell-icon' !important;
+  speak: none;
+  font-style: normal;
+  font-weight: normal;
+  font-variant: normal;
+  text-transform: none;
+  line-height: 1;
+
+  /* Better Font Rendering =========== */
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.icon-self:before {
+  content: "\e901";
+}
+.icon-note:before {
+  content: "\e902";
+}
+.icon-demo:before {
+  content: "\e903";
+}
+.icon-github:before {
+  content: "\e900";
+}
